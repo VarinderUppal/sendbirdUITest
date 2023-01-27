@@ -1,0 +1,22 @@
+.app-wrapper {
+  height: calc(100vh - 20px);
+}
+
+.channel-selector {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.channel-selector__icons {
+  display: flex;
+}
+
+.customized-app {
+  height: 90%;
+}
+
+body[class*="sendbird-theme"] {
+  margin: 0px;
+}
